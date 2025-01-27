@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            display: flex;
+            margin-left: 100px;
+        }
+        div:first-child{
+            display: flex;
+        }
+        div:nth-child(2){
+            display: flex;
+        }
+        img{
+            margin-right: 70px;
+        }
+        input[type="search"]{
+            height: 40px;
+            width: 500px;
+            padding: 10px;
+            border: 1px solid rgb(210, 210, 212);
+        }
+        #search{
+            background-color:rgb(61, 61, 180);
+            width: 40px;
+        }
+        #icon{
+            display: flex;
+            gap: 7px;
+            margin-left: 50px;
+        }
+        #l1{
+            width: 100px;
+            color: rgb(61, 61, 180);
+        }
+        
+        #l2{
+            width: 100px;
+            color:rgb(61, 61, 180);
+        }
+        #l3{
+            width: 100px;
+            color:rgb(61, 61, 180);
+        }
+         .btn{
+            color:rgb(61, 61, 180);
+            border-radius: 9px;
+        }
+        .btn:hover{
+            color: rgb(254, 254, 255);
+            background-color: rgb(61, 61, 180);
+        }
+        main{
+            height: 450px;
+            background-color: rgb(4, 82, 121);
+        }
+        #btn4{
+            width: 100px; 
+            height: 40px;
+            margin-right: 30px;
+            border-radius:4px;
+            background-color: orange;
+            color: white;
+        }
+        #btn4:hover{
+            opacity: 0.9;
+        }
+        #btn5{
+            width: 100px;
+        }
+        #btn5:hover{
+            background-color: rgb(163, 165, 166);
+        }
+        div>img{
+            width: 200px;
+            height: 200px;
+        }
+        .th{
+            border: 1px solid rgb(180, 176, 176) ;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <section>
+                <div>
+                <img src="./img/logo.svg" alt="" >
+                <input type="search" placeholder="serch here">
+                <select name="" id="" style="border: 1px solid rgb(195, 195, 205);">
+                    <option value="All type here">all type here</option>
+                    <option value="All type here">all type here</option>
+                    <option value="All type here">all type here</option>
+                    <option value="All type here">all type here</option>
+                </select>
+                <div id="search">
+                    <i class="fa-solid fa-magnifying-glass fa-flip-horizontal fa-xs" style="margin-top: 20px; margin-left: 10px; color: white;"></i>
+                   </div>
+                </div>
+            
+            <div id="icon">
+               <div id="l1"> <button class="btn" style="width: 120px; border: 1px solid rgb(124, 124, 205); "><i  class="fa-solid fa-user fa-xl" ></i><b>Sign in</b></button></div>
+               <div id="l2"><button class="btn" style="width: 120px; border: 1px solid blue; "><i  class="fa-solid fa-heart fa-lg"></i><b>Wishlist</b></button></div>
+                <div id="l3"><button class="btn" style="width: 120px; height: 40px; border: 1px solid blue; "><i class="fa-solid fa-cart-shopping fa-xl"></i><b>cart</b></button></div>
+            </div>
+        </section>
+        <hr>
+        </nav>
+    </header>
+</body>
+</html>
