@@ -1,0 +1,14 @@
+#cloth-section{
+    gap: 100px;
+    margin-top: 140px;
+}
+.border-for-items{
+    border: 2px solid  rgb(180, 176, 176) ;
+    padding: 20px;
+    box-shadow:  1px 1px 13px rgb(180, 176, 176);
+    
+}
+.border-for-items:hover{
+        border: 2px solid rgb(4, 82, 121);
+        box-shadow:1px 1px 13px rgb(4, 82, 121);
+}
